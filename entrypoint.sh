@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # 设置各变量，WS 路径前缀。(注意:伪装路径不需要 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
+WSPATH=${WSPATH:-'bd2cd49f-1618-4bbe-a233-848cd89335d9'}
+UUID=${UUID:-'bd2cd49f-1618-4bbe-a233-848cd89335d9'}
 WEB_USERNAME=${WEB_USERNAME:-'admin'}
-WEB_PASSWORD=${WEB_PASSWORD:-'password'}
+WEB_PASSWORD=${WEB_PASSWORD:-'Aa146934@'}
 
 # 哪吒4个参数，ssl/tls 看是否需要，不需要的话可以留空，删除或在这4行最前面加 # 以注释
 NEZHA_SERVER="$NEZHA_SERVER"
@@ -13,8 +13,8 @@ NEZHA_KEY="$NEZHA_KEY"
 NEZHA_TLS="$NEZHA_TLS"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH=''
-ARGO_DOMAIN="$ARGO_DOMAIN"
+ARGO_AUTH='eyJhIjoiZjEyMjQ3MGExMWEwYjAxOTBiYWY3ZmRlNjUxY2NkMjMiLCJ0IjoiN2YwZmVmNGItNTMxNi00NzAwLWE5ZDEtNGIwZmQwNjhhNjkzIiwicyI6IlkyRm1NVGcyWWprdFpHRTVNUzAwWkRnekxXRmtOR0l0TURabU0yVXlNVEl3TnpsaiJ9'
+ARGO_DOMAIN="b4aaa.andbru123.eu.org"
 
 # ttyd / filebrowser argo 域名
 SSH_DOMAIN="$SSH_AUTH"
