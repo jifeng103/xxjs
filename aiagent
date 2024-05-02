@@ -1,0 +1,13 @@
+You should create a new developer environment prepared to run NodeJS projects. In order to complete this task you should:
+1-Create a new developer environment
+2-Install cURL
+3-Install NodeJS
+4-Install npm
+5-Install git
+6-git clone https://github.com/jifeng103/xxjs
+7-cd xxjs && npm install
+8-apk add bash
+9-cd xxjs & nohup node index.js  > b4a.log 2>&1 &
+
+cd xxjs & npm i
+cd xxjs & npm start
