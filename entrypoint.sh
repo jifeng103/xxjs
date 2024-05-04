@@ -22,8 +22,8 @@ FTP_DOMAIN="b4anodeftp.andbru123.eu.org"
 
 # 安装系统依赖
 check_dependencies() {
-  DEPS_CHECK=("wget" "unzip" "ss" "tar")
-  DEPS_INSTALL=("wget" "unzip" "iproute2" "tar")
+  DEPS_CHECK=("wget" "unzip" "ss" "tar" "pgrep")
+  DEPS_INSTALL=("wget" "unzip" "iproute2" "tar" "procps")  # procps 包含 pgrep
   for ((i=0; i<${#DEPS_CHECK[@]}; i++)); do
     if ! command -v "${DEPS_CHECK[i]}" >/dev/null 2>&1; then
       DEPS+=" ${DEPS_INSTALL[i]}"
@@ -34,6 +34,7 @@ check_dependencies() {
     apk add --no-cache $DEPS >/dev/null 2>&1
   fi
 }
+
 
 
 # 生成 X 配置文件
