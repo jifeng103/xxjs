@@ -13,12 +13,12 @@ NEZHA_KEY="$NEZHA_KEY"
 NEZHA_TLS="$NEZHA_TLS"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH='eyJhIjoiZjEyMjQ3MGExMWEwYjAxOTBiYWY3ZmRlNjUxY2NkMjMiLCJ0IjoiNDQ3ODBmOWYtMDg3ZC00YTdmLWJhYzEtNmE4MTU4MjY0ZTFhIiwicyI6IlpEQTVOVEpqTlRjdE0yVXhPQzAwWVRFMUxXRXhNbVl0WVdGa05UQXhNelEzTWpnMCJ9'
-ARGO_DOMAIN="b4anode.andbru123.eu.org"
+ARGO_AUTH='eyJhIjoiZjEyMjQ3MGExMWEwYjAxOTBiYWY3ZmRlNjUxY2NkMjMiLCJ0IjoiN2JmOWExYWItNzMwMi00NDQ3LTljNDMtZjk0YjdkNmJhNzA3IiwicyI6IlpEQTNObVk0WkdNdE56Z3lPQzAwT0RabExXRmtZemd0WkRjMFpHWm1OVFkxTkdVeSJ9'
+ARGO_DOMAIN="b4afweb.andbru123.eu.org"
 
 # ttyd / filebrowser argo 域名
-SSH_DOMAIN="b4anodessh.andbru123.eu.org"
-FTP_DOMAIN="b4anodeftp.andbru123.eu.org"
+SSH_DOMAIN="b4afwebessh.andbru123.eu.org"
+FTP_DOMAIN="b4afwebftp.andbru123.eu.org"
 
 # 安装系统依赖
 check_dependencies() {
